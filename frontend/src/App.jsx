@@ -1,13 +1,11 @@
-import React from "react";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import Stats from "./components/Stats";
 import Services from "./components/Services";
 import Brands from "./components/Brands";
-import Banner from "./components/banner";
+import Banner from "./components/Banner";
 import About from "./components/About";
 import Contact from "./components/Contact";
-
 import Footer from "./components/Footer";
 
 const App = () => {
