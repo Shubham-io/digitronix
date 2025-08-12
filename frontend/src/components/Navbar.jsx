@@ -1,6 +1,6 @@
 import { useState } from "react";
 import logo from "../assets/digitronics_logo.png";
-import { Menu, Scale, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
