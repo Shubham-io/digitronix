@@ -117,7 +117,7 @@ const Navbar = () => {
                     to={item}
                     smooth={true}
                     duration={500}
-                    offset={-70}
+                    offset={-250}
                     activeClass="active"
                     className="hover:text-black hover:cursor-pointer"
                     onClick={() => setIsMenuOpen(false)}
