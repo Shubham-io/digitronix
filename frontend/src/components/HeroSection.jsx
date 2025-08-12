@@ -1,7 +1,6 @@
 import React from "react";
-import person1 from "../assets/person1.png";
-import person2 from "../assets/person2.png";
-import person3 from "../assets/person3.png";
+import img1 from "../assets/hero-img1.png";
+import img2 from "../assets/hero-img2.png";
 
 const HeroSection = () => {
   return (
@@ -27,37 +26,13 @@ const HeroSection = () => {
           </div>
 
           {/* Right Visual Elements */}
-          <div className="relative  -left-15 h-96 lg:h-[500px]">
+          <div className="relative flex flex-col md:flex-row  justify-center  items-start">
             {/* Main Image Cards */}
-
-            {/* Top Right - Yellow Card */}
-            <div className="absolute  top-6 left-20 w-40 h-32 sm:w-62 sm:h-50 rounded-2xl  ">
-              {/* REPLACE WITH YOUR IMAGE: Happy woman in glasses making hand gestures */}
-              <img
-                src={person1}
-                alt="Happy woman making hand gestures"
-                className="w-full h-full object-cover hover:scale-105 transition-transform ease-in duration-300"
-              />
+            <div  >
+              <img src={img1} alt="img1" className="w-full md:w-7xl" />
             </div>
-
-            {/* Middle Right - Pink Card */}
-            <div className="absolute top-24 right-13 sm:top-50 sm:right-25 w-40 h-46 sm:w-44 sm:h-64   rounded-2xl    ">
-              {/* REPLACE WITH YOUR IMAGE: Man in blue shirt */}
-              <img
-                src={person2}
-                alt="Professional man in blue shirt"
-                className="w-full h-full object-cover hover:scale-105 transition-all ease-in duration-300"
-              />
-            </div>
-
-            {/* Bottom Center - Teal Card */}
-            <div className="absolute bottom-12 left-74 sm:bottom-2 sm:left-12 w-30 h-28 sm:w-48 sm:h-40  rounded-2xl  ">
-              {/* REPLACE WITH YOUR IMAGE: Woman in striped shirt */}
-              <img
-                src={person3}
-                alt="Woman in striped shirt thinking"
-                className="w-full h-full object-cover hover:scale-105 transition-all ease-in duration-300"
-              />
+            <div>
+              <img src={img2} alt="img2" className="w-full md:w-3xl" />
             </div>
 
             {/* Decorative Elements */}
