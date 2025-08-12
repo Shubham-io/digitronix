@@ -41,7 +41,7 @@ const HeroSection = () => {
             </div>
 
             {/* Middle Right - Pink Card */}
-            <div className="absolute top-20 right-18 sm:top-50 sm:right-25 w-40 h-46 sm:w-44 sm:h-64   rounded-2xl    ">
+            <div className="absolute top-24 right-13 sm:top-50 sm:right-25 w-40 h-46 sm:w-44 sm:h-64   rounded-2xl    ">
               {/* REPLACE WITH YOUR IMAGE: Man in blue shirt */}
               <img
                 src={person2}
@@ -51,7 +51,7 @@ const HeroSection = () => {
             </div>
 
             {/* Bottom Center - Teal Card */}
-            <div className="absolute bottom-16 left-70 sm:bottom-2 sm:left-12 w-30 h-28 sm:w-48 sm:h-40  rounded-2xl  ">
+            <div className="absolute bottom-12 left-74 sm:bottom-2 sm:left-12 w-30 h-28 sm:w-48 sm:h-40  rounded-2xl  ">
               {/* REPLACE WITH YOUR IMAGE: Woman in striped shirt */}
               <img
                 src={person3}
